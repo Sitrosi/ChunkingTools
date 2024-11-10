@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  viewBox="0 0 512 512"
+  xmlns="http://www.w3.org/2000/svg"
+  id="svg1"
+>
+  <!-- Define a circular clip path -->
+  <defs id="defs1">
+    <style>
+      .dot { fill: #FFFFFF; stroke: #000000; stroke-width:1.2 }
+      .ring { fill: none; stroke: #FFFFFF; stroke-width:1.2 }
+    </style>
+  </defs>
+  <image
+    width="512"
+    height="512"
+    preserveAspectRatio="none"
+    xlink:href="EasternAfrica_North_Template.png"
+    id="image1"
+    x="0"
+    y="0"
+  />
+  <g class="dot">
+    <circle cx="480" cy="190" r="3" id="arabian_sea" />
+    <circle cx="412" cy="398" r="3" id="indian_ocean" />
+    <circle cx="179" cy="381" r="3" id="rwanda" />
+    <circle cx="182" cy="397" r="3" id="burundi" />
+    <circle cx="198" cy="491" r="3" id="zambia" />
+    <circle cx="98" cy="375" r="3" id="drc" />
+    <circle cx="217" cy="335" r="3" id="uganda" />
+    <circle cx="296" cy="346" r="3" id="kenya" />
+    <circle cx="414" cy="277" r="3" id="somalia" />
+    <circle cx="424" cy="128" r="3" id="yemen" />
+    <circle cx="383"  cy="66" r="3" id="saudi_arabia" />
+    <circle cx="190" cy="128" r="3" id="sudan" />
+    <circle cx="168"  cy="30" r="3" id="egypt" />
+    <circle cx="291" cy="129" r="3" id="eritrea" />
+    <circle cx="191" cy="249" r="3" id="south_sudan" />
+    <circle cx="60" cy="257" r="3" id="central_african_republic" />
+    <circle cx="12" cy="308" r="3" id="roc" />
+    <circle cx="48" cy="152" r="3" id="chad" />
+    <circle cx="108"  cy="62" r="3" id="libya" />
+    <circle cx="400" cy="216" r="3" id="somaliland" />
+    <circle cx="432" cy="172" r="3" id="gulf_of_aden" />
+    <circle cx="314"  cy="96" r="3" id="red_sea" />
+    <circle cx="353" cy="187" r="3" id="djibouti" />
+    <circle cx="314" cy="228" r="3" id="ethiopia" />
+    <circle cx="252" cy="446" r="3" id="tanzania" />
+    <circle cx="290" cy="505" r="3" id="mozambique" />
+  </g>
+  <g class="ring">
+    <path
+      id="lake_malawi"
+      d="m 238,472.85 a 42,10.14 77.98 0 0 -1.21,0.18 42,10.14 77.98 0 0 -1.81,37.48 255.82,256 87.92 0 0 20.76,0.73 42,10.14 77.98 0 0 -0.25,-1.21 42,10.14 77.98 0 0 -17.48,-37.17 z"
+    />
+    <ellipse
+      id="lake_tanganyika"
+      cx="471.6"
+      cy="11.3"
+      rx="40"
+      ry="15.1"
+      transform="matrix(0.41,0.91,-0.86,0.51,0,0)"
+    />
+    <ellipse
+      id="lake_turkana"
+      cx="325.4"
+      cy="-187.1"
+      rx="22.8"
+      ry="17"
+      transform="matrix(0.25,0.97,-1,0.04,0,0)"
+    />
+    <ellipse
+      id="zanzibar_islands"
+      cx="-106.9"
+      cy="-558.8"
+      rx="13.3"
+      ry="9.8"
+      transform="matrix(-0.71,0.71,-0.43,-0.9,0,0)"
+    />
+    <ellipse
+      id="lake_albert"
+      cx="-166.3"
+      cy="-406.7"
+      rx="13.3"
+      ry="9.8"
+      transform="matrix(-0.9,0.43,-0.11,-0.99,0,0)"
+    />
+    <ellipse
+      id="lake_victoria"
+      id="path31"
+      cx="221.9"
+      cy="372.3"
+      rx="27.5"
+      ry="28.7"
+    />
+    <ellipse
+      id="lake_tana"
+      cx="283.5"
+      cy="184.2"
+      rx="10.7"
+      ry="11.2"
+    />
+    <ellipse
+      id="lake_mweru"
+      cx="-295.6"
+      cy="404.5"
+      rx="9.3"
+      ry="8.1"
+      transform="matrix(0.57,-0.82,0.82,0.57,0,0)"
+    />
+    <ellipse
+      id="toshka_lakes"
+      cx="195.1"
+      cy="30.7"
+      rx="11.5"
+      ry="11.9"
+    />
+    <path
+      id="socotra_island"
+      d="m 493,166 a 9.7,6.5 0 0 0 -9.7,6.5 9.7,6.5 0 0 0 9.7,6.5 9.7,6.5 0 0 0 5.7,-1.3 255,255 0 0 0 -4.07,-11.7 9.7,6.5 0 0 0 -1.7,-0.1 z"
+    />
+  </g>
+</svg>
