@@ -1,0 +1,8 @@
+{
+    "name": "Basic Q&A",
+    "template_name": "Q&A - Standard",
+    "fields": [
+        { "name": "Front" },
+        { "name": "Back" }
+    ]
+}

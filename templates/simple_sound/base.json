@@ -1,0 +1,9 @@
+{
+    "name": "Basic S&A",
+    "template_name": "S&A - Standard",
+    "fields": [
+        { "name": "Front" },
+        { "name": "Back" },
+        { "name": "Sound" }
+    ]
+}
