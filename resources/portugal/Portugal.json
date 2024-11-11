@@ -1,0 +1,690 @@
+[
+    {
+        "image": "AveiroCentered01.png",
+        "regions": {
+            "aveiro": "#FF6600",
+            "coimbra": "#00FF00",
+            "north_atlantic_ocean": "#FF0000"
+        }
+    },
+    {
+        "image": "AveiroCentered02.png",
+        "regions": {
+            "aveiro": "#FFFF00",
+            "leiria": "#00FFFF",
+            "viseu": "#FF0000"
+        }
+    },
+    {
+        "image": "AveiroCentered03.png",
+        "regions": {
+            "aveiro": "#00FFFF",
+            "guarda": "#FF6600",
+            "castelo_branco": "#FF00FF"
+        }
+    },
+    {
+        "image": "AveiroCentered04.png",
+        "regions": {
+            "aveiro": "#FF00FF",
+            "porto": "#00FF00",
+            "vila_real": "#FFFF00"
+        }
+    },
+    {
+        "image": "AzoresCentered01.png",
+        "regions": {
+            "azores": "#FF00FF",
+            "newfoundland": "#FF0000",
+            "morocco": "#00FF00"
+        }
+    },
+    {
+        "image": "AzoresCentered02.png",
+        "regions": {
+            "azores": "#FFFF00",
+            "canary_islands": "#FF00FF",
+            "spain": "#00FF00"
+        }
+    },
+    {
+        "image": "AzoresCentered03.png",
+        "regions": {
+            "azores": "#FF6600",
+            "bay_of_biscay": "#FF00FF",
+            "newfoundland": "#00FFFF"
+        }
+    },
+    {
+        "image": "AzoresCentered04.png",
+        "regions": {
+            "azores": "#00FFFF",
+            "ireland": "#00FF00",
+            "celtic_sea": "#FF6600"
+        }
+    },
+    {
+        "image": "AzoresCentered05.png",
+        "regions": {
+            "azores": "#00FF00",
+            "north_atlantic_ocean": "#FFFF00",
+            "newfoundland": "#FF0000"
+        }
+    },
+    {
+        "image": "BejaCentered01.png",
+        "regions": {
+            "beja": "#FF00FF",
+            "setubal": "#00FF00",
+            "evora": "#00FFFF"
+        }
+    },
+    {
+        "image": "BejaCentered02.png",
+        "regions": {
+            "beja": "#FF6600",
+            "badajoz": "#FFFF00",
+            "huelva": "#00FF00"
+        }
+    },
+    {
+        "image": "BejaCentered03.png",
+        "regions": {
+            "beja": "#FFFF00",
+            "faro": "#00FFFF",
+            "north_atlantic_ocean": "#FF0000"
+        }
+    },
+    {
+        "image": "BejaCentered04.png",
+        "regions": {
+            "beja": "#FF0000",
+            "golfo_de_cadiz": "#FF00FF",
+            "evora": "#FF6600"
+        }
+    },
+    {
+        "image": "BragaCentered01.png",
+        "regions": {
+            "braga": "#FF0000",
+            "viana_do_castelo": "#FF00FF",
+            "north_atlantic_ocean": "#FFFF00"
+        }
+    },
+    {
+        "image": "BragaCentered02.png",
+        "regions": {
+            "braga": "#FFFF00",
+            "vila_real": "#00FFFF",
+            "ourense": "#FF00FF"
+        }
+    },
+    {
+        "image": "BragaCentered03.png",
+        "regions": {
+            "braga": "#FF00FF",
+            "porto": "#FF6600",
+            "alto_rabagao_dam": "#00FF00"
+        }
+    },
+    {
+        "image": "BragancaCentered01.png",
+        "regions": {
+            "braganca": "#FF00FF",
+            "guarda": "#FFFF00",
+            "vila_real": "#00FFFF"
+        }
+    },
+    {
+        "image": "BragancaCentered02.png",
+        "regions": {
+            "braganca": "#FF6600",
+            "salamanca": "#00FFFF",
+            "viseu": "#FF00FF"
+        }
+    },
+    {
+        "image": "BragancaCentered03.png",
+        "regions": {
+            "braganca": "#FF0000",
+            "zamora": "#00FF00",
+            "ourense": "#FFFF00"
+        }
+    },
+    {
+        "image": "BragancaCentered04.png",
+        "regions": {
+            "braganca": "#FFFF00",
+            "braga": "#FF6600",
+            "leon": "#FF00FF"
+        }
+    },
+    {
+        "image": "BragancaCentered05.png",
+        "regions": {
+            "braganca": "#00FF00",
+            "porto": "#00FFFF",
+            "alto_rabagao_dam": "#FF00FF"
+        }
+    },
+    {
+        "image": "CasteloBrancoCentered01.png",
+        "regions": {
+            "castelo_branco": "#00FFFF",
+            "guarda": "#FFFF00",
+            "north_atlantic_ocean": "#FF00FF"
+        }
+    },
+    {
+        "image": "CasteloBrancoCentered02.png",
+        "regions": {
+            "castelo_branco": "#FFFF00",
+            "viseu": "#00FFFF",
+            "leiria": "#FF6600"
+        }
+    },
+    {
+        "image": "CasteloBrancoCentered03.png",
+        "regions": {
+            "castelo_branco": "#FF00FF",
+            "aveiro": "#00FF00",
+            "caceres": "#C83737"
+        }
+    },
+    {
+        "image": "CasteloBrancoCentered04.png",
+        "regions": {
+            "castelo_branco": "#00FF00",
+            "santarem": "#FF0000",
+            "salamanca": "#FFFF00"
+        }
+    },
+    {
+        "image": "CasteloBrancoCentered05.png",
+        "regions": {
+            "castelo_branco": "#FF6600",
+            "leiria": "#FF00FF",
+            "badajoz": "#00FF00"
+        }
+    },
+    {
+        "image": "CasteloBrancoCentered06.png",
+        "regions": {
+            "castelo_branco": "#FF0000",
+            "coimbra": "#00FFFF",
+            "portalegre": "#FF00FF"
+        }
+    },
+    {
+        "image": "CasteloBrancoCentered07.png",
+        "regions": {
+            "castelo_branco": "#C83737",
+            "evora": "#FFFF00",
+            "lisboa": "#00FFFF"
+        }
+    },
+    {
+        "image": "CoimbracenteredRedo01.png",
+        "regions": {
+            "coimbra": "#FF0000",
+            "viseu": "#00FFFF",
+            "north_atlantic_ocean": "#00FF00"
+        }
+    },
+    {
+        "image": "CoimbracenteredRedo02.png",
+        "regions": {
+            "coimbra": "#00FF00",
+            "aveiro": "#FFFF00",
+            "guarda": "#FF00FF"
+        }
+    },
+    {
+        "image": "CoimbracenteredRedo03.png",
+        "regions": {
+            "coimbra": "#FF6600",
+            "castelo_branco": "#00FFFF",
+            "leiria": "#FFFF00"
+        }
+    },
+    {
+        "image": "CoimbracenteredRedo04.png",
+        "regions": {
+            "coimbra": "#FF00FF",
+            "santarem": "#FF0000",
+            "zezere_river": "#00FFFF"
+        }
+    },
+    {
+        "image": "EvoraCentered01.png",
+        "regions": {
+            "evora": "#FF00FF",
+            "beja": "#00FFFF",
+            "portalegre": "#FF0000"
+        }
+    },
+    {
+        "image": "EvoraCentered02.png",
+        "regions": {
+            "evora": "#FF6600",
+            "badajoz": "#00FFFF",
+            "santarem": "#FFFF00"
+        }
+    },
+    {
+        "image": "EvoraCentered03.png",
+        "regions": {
+            "evora": "#FFFF00",
+            "setubal": "#FF00FF",
+            "santarem": "#00FF00"
+        }
+    },
+    {
+        "image": "FaroCentered01.png",
+        "regions": {
+            "faro": "#FF6600",
+            "huelva": "#FF00FF",
+            "beja": "#00FFFF"
+        }
+    },
+    {
+        "image": "FaroCentered02.png",
+        "regions": {
+            "faro": "#FF00FF",
+            "setubal": "#FF0000",
+            "golfo_de_cadiz": "#FFFF00"
+        }
+    },
+    {
+        "image": "FaroCentered03.png",
+        "regions": {
+            "faro": "#00FF00",
+            "north_atlantic_ocean": "#FF0000",
+            "beja": "#00FFFF"
+        }
+    },
+    {
+        "image": "FaroCentered04.png",
+        "regions": {
+            "faro": "#FF0000",
+            "setubal": "#FF6600",
+            "huelva": "#00FF00"
+        }
+    },
+    {
+        "image": "GuardaCentered01.png",
+        "regions": {
+            "guarda": "#FF6600",
+            "braganca": "#FF00FF",
+            "salamanca": "#00FFFF"
+        }
+    },
+    {
+        "image": "GuardaCentered02.png",
+        "regions": {
+            "guarda": "#FF00FF",
+            "vila_real": "#FFFF00",
+            "caceres": "#00FF00"
+        }
+    },
+    {
+        "image": "GuardaCentered03.png",
+        "regions": {
+            "guarda": "#00FFFF",
+            "castelo_branco": "#FFFF00",
+            "porto": "#FF00FF"
+        }
+    },
+    {
+        "image": "GuardaCentered04.png",
+        "regions": {
+            "guarda": "#FF0000",
+            "aveiro": "#00FF00",
+            "coimbra": "#00FFFF"
+        }
+    },
+    {
+        "image": "GuardaCentered05.png",
+        "regions": {
+            "guarda": "#FFFF00",
+            "coimbra": "#FF6600",
+            "castelo_branco": "#00FFFF"
+        }
+    },
+    {
+        "image": "LeiriaCentered01.png",
+        "regions": {
+            "leiria": "#FF00FF",
+            "berlengas": "#FFFF00",
+            "lisboa": "#00FFFF"
+        }
+    },
+    {
+        "image": "LeiriaCentered02.png",
+        "regions": {
+            "leiria": "#FFFF00",
+            "coimbra": "#00FFFF",
+            "santarem": "#FF0000"
+        }
+    },
+    {
+        "image": "LeiriaCentered03.png",
+        "regions": {
+            "leiria": "#00FF00",
+            "setubal": "#00FFFF",
+            "castelo_branco": "#FF0000"
+        }
+    },
+    {
+        "image": "LeiriaCentered04.png",
+        "regions": {
+            "leiria": "#FF6600",
+            "evora": "#FF00FF",
+            "north_atlantic_ocean": "#FFFF00"
+        }
+    },
+    {
+        "image": "LeiriaCentered05.png",
+        "regions": {
+            "leiria": "#00FFFF",
+            "portalegre": "#C83737",
+            "tagus_river_mouth": "#FF6600"
+        }
+    },
+    {
+        "image": "LisboaCentered01.png",
+        "regions": {
+            "lisboa": "#00FF00",
+            "leiria": "#FF0000",
+            "santarem": "#FF00FF"
+        }
+    },
+    {
+        "image": "LisboaCentered02.png",
+        "regions": {
+            "lisboa": "#FFFF00",
+            "evora": "#00FFFF",
+            "north_atlantic_ocean": "#FF0000"
+        }
+    },
+    {
+        "image": "LisboaCentered03.png",
+        "regions": {
+            "lisboa": "#FF00FF",
+            "setubal": "#00FFFF",
+            "tagus_river_mouth": "#FF6600"
+        }
+    },
+    {
+        "image": "MadeiraCentered01.png",
+        "regions": {
+            "madeira_island": "#00FF00",
+            "porto_santo_island": "#0FFFF",
+            "north_atlantic_ocean": "#FF00FF"
+        }
+    },
+    {
+        "image": "MadeiraCentered02.png",
+        "regions": {
+            "madeira_island": "#FF00FF",
+            "desertas_islands": "#00FF00",
+            "north_atlantic_ocean": "#FF6600"
+        }
+    },
+    {
+        "image": "MadeiraCentered03.png",
+        "regions": {
+            "madeira": "#FF00FF",
+            "azores": "#FFFF00",
+            "morocco": "#FF0000"
+        }
+    },
+    {
+        "image": "MadeiraCentered04.png",
+        "regions": {
+            "madeira": "#FFFF00",
+            "canary_islands": "#00FF00",
+            "portugal": "#FF6600"
+        }
+    },
+    {
+        "image": "MadeiraCentered05.png",
+        "regions": {
+            "madeira": "#00FFFF",
+            "portugal": "#00FF00",
+            "north_atlantic_ocean": "#FF00FF"
+        }
+    },
+    {
+        "image": "PortalegreCentered01.png",
+        "regions": {
+            "portalegre": "#FFFF00",
+            "evora": "#00FFFF",
+            "santarem": "#FF00FF"
+        }
+    },
+    {
+        "image": "PortalegreCentered02.png",
+        "regions": {
+            "portalegre": "#00FF00",
+            "castelo_branco": "#FF00FF",
+            "caceres": "#00FFFF"
+        }
+    },
+    {
+        "image": "PortalegreCentered03.png",
+        "regions": {
+            "portalegre": "#FF6600",
+            "santarem": "#FFFF00",
+            "castelo_branco": "#00FF00"
+        }
+    },
+    {
+        "image": "PortalegreCentered04.png",
+        "regions": {
+            "portalegre": "#FF00FF",
+            "caceres": "#FFFF00",
+            "badajoz": "#FF0000"
+        }
+    },
+    {
+        "image": "PortoCentered01.png",
+        "regions": {
+            "porto": "#FFFF00",
+            "aveiro": "#00FF00",
+            "viseu": "#FF00FF"
+        }
+    },
+    {
+        "image": "PortoCentered02.png",
+        "regions": {
+            "porto": "#00FF00",
+            "vila_real": "#00FFFF",
+            "north_atlantic_ocean": "#FF6600"
+        }
+    },
+    {
+        "image": "PortoCentered03.png",
+        "regions": {
+            "porto": "#00FFFF",
+            "braga": "#FF00FF",
+            "viana_do_castelo": "#FF0000"
+        }
+    },
+    {
+        "image": "PortoCentered04.png",
+        "regions": {
+            "porto": "#00FF00",
+            "ourense": "#FFFF00",
+            "alto_rabagao_dam": "#FF6600"
+        }
+    },
+    {
+        "image": "SantaremCentered01.png",
+        "regions": {
+            "santarem": "#FF0000",
+            "portalegre": "#FF00FF",
+            "tagus_river_mouth": "#00FFFF"
+        }
+    },
+    {
+        "image": "SantaremCentered02.png",
+        "regions": {
+            "santarem": "#FF00FF",
+            "lisboa": "#00FFFF",
+            "evora": "#00FF00"
+        }
+    },
+    {
+        "image": "SantaremCentered03.png",
+        "regions": {
+            "santarem": "#FFFF00",
+            "portalegre": "#FF00FF",
+            "setubal": "#FF6600"
+        }
+    },
+    {
+        "image": "SantaremCentered04.png",
+        "regions": {
+            "santarem": "#FF6600",
+            "leiria": "#00FF00",
+            "castelo_branco": "#00FFFF"
+        }
+    },
+    {
+        "image": "SantaremCentered05.png",
+        "regions": {
+            "santarem": "#00FF00",
+            "north_atlantic_ocean": "#FFFF00",
+            "zezere_river": "#FF0000"
+        }
+    },
+    {
+        "image": "SetubalCentered01.png",
+        "regions": {
+            "setubal": "#FFFF00",
+            "evora": "#00FF00",
+            "beja": "#FF00FF"
+        }
+    },
+    {
+        "image": "SetubalCentered02.png",
+        "regions": {
+            "setubal": "#FF6600",
+            "santarem": "#00FF00",
+            "north_atlantic_ocean": "#00FFFF"
+        }
+    },
+    {
+        "image": "SetubalCentered03.png",
+        "regions": {
+            "setubal": "#00FF00",
+            "beja": "#FF00FF",
+            "tagus_river": "#FF0000"
+        }
+    },
+    {
+        "image": "SetubalCentered04.png",
+        "regions": {
+            "setubal": "#00FFFF",
+            "lisboa": "#C83737",
+            "santarem": "#FFFF00"
+        }
+    },
+    {
+        "image": "VianaDoCasteloCentered01.png",
+        "regions": {
+            "viana_do_castelo": "#FFFF00",
+            "north_atlantic_ocean": "#FF00FF",
+            "braga": "#00FFFF"
+        }
+    },
+    {
+        "image": "VianaDoCasteloCentered02.png",
+        "regions": {
+            "viana_do_castelo": "#FF6600",
+            "vila_real": "#00FFFF",
+            "ourense": "#FF00FF"
+        }
+    },
+    {
+        "image": "VianaDoCasteloCentered03.png",
+        "regions": {
+            "viana_do_castelo": "#00FFFF",
+            "ria_de_vigo": "#FFFF00",
+            "pontevedra": "#FF0000"
+        }
+    },
+    {
+        "image": "VilaRealCentered01.png",
+        "regions": {
+            "vila_real": "#FF00FF",
+            "viseu": "#00FFFF",
+            "braga": "#FFFF00"
+        }
+    },
+    {
+        "image": "VilaRealCentered02.png",
+        "regions": {
+            "vila_real": "#00FF00",
+            "aveiro": "#FF0000",
+            "viana_do_castelo": "#FFFF00"
+        }
+    },
+    {
+        "image": "VilaRealCentered03.png",
+        "regions": {
+            "vila_real": "#FF6600",
+            "porto": "#FF00FF",
+            "guarda": "#00FF00"
+        }
+    },
+    {
+        "image": "VilaRealCentered04.png",
+        "regions": {
+            "vila_real": "#FF0000",
+            "braganca": "#00FFFF",
+            "ourense": "#00FF00"
+        }
+    },
+    {
+        "image": "ViseuCentered01.png",
+        "regions": {
+            "viseu": "#FF0000",
+            "aveiro": "#00FFFF",
+            "coimbra": "#FF00FF"
+        }
+    },
+    {
+        "image": "ViseuCentered02.png",
+        "regions": {
+            "viseu": "#FFFF00",
+            "castelo_branco": "#FF0000",
+            "vila_real": "#00FF00"
+        }
+    },
+    {
+        "image": "ViseuCentered03.png",
+        "regions": {
+            "viseu": "#FF6600",
+            "porto": "#00FFFF",
+            "guarda": "#FF0000"
+        }
+    },
+    {
+        "image": "ViseuCentered04.png",
+        "regions": {
+            "viseu": "#FF00FF",
+            "braga": "#00FFFF",
+            "north_atlantic_ocean": "#FFFF00"
+        }
+    },
+    {
+        "image": "ViseuCentered05.png",
+        "regions": {
+            "viseu": "#00FFFF",
+            "braganca": "#00FFFF",
+            "vila_real": "#FF00FF"
+        }
+    }
+]
