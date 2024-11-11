@@ -12,10 +12,10 @@ def load_deck_metadata(model_dir):
         return json.load(f)
 
 
-def load_html_template(model_dir, template_name):
-    template_path = os.path.join(model_dir, f'{template_name}.html')
+def load_html_template(model_dir, template_filename):
+    template_path = os.path.join(model_dir, f'{template_filename}')
     if not os.path.exists(template_path):
-        raise FileNotFoundError(f"Missing {template_name}.html in {model_dir}")
+        raise FileNotFoundError(f"Missing {template_filename} in {model_dir}")
 
     with open(template_path, 'r') as f:
         return f.read()
@@ -54,25 +54,34 @@ def get_template(config, qfmt, afmt, assets):
     return template
 
 
+def get_templates(model_dir, config):
+    assets = load_optional_assets(model_dir)
+    templates = []
+
+    for template_config in config['templates']:
+        qfmt = load_html_template(model_dir, template_config['qfmt'])
+        afmt = load_html_template(model_dir, template_config['afmt'])
+        template = get_template(template_config, qfmt, afmt, assets)
+        templates.append(template)
+
+    return templates
+
+
 def create_anki_model(id, model_dir):
     config = load_deck_metadata(model_dir)
-
-    qfmt = load_html_template(model_dir, 'qfmt')
-    afmt = load_html_template(model_dir, 'afmt')
-    assets = load_optional_assets(model_dir)
-    template = get_template(config, qfmt, afmt, assets)
-
-    name = config['name']
-    fields = config['fields']
-
-    return genanki.Model(id, name, fields=fields, templates=[template])
+    templates = get_templates(model_dir, config)
+    return genanki.Model(
+        id,
+        config['name'],
+        fields=config['fields'],
+        templates=templates
+    )
 
 
-base_model_idx = 2**31
-
-simple_text = create_anki_model(base_model_idx, "templates/simple_text")
-simple_image = create_anki_model(base_model_idx+1, "templates/simple_image")
-simple_sound = create_anki_model(base_model_idx+1, "templates/simple_sound")
+base_model_idx = 2**30
+simple_text = create_anki_model(base_model_idx, 'templates/simple_text')
+simple_image = create_anki_model(base_model_idx+1, 'templates/simple_image')
+simple_sound = create_anki_model(base_model_idx+2, 'templates/simple_sound')
 
 
 base_deck_idx = 2**30

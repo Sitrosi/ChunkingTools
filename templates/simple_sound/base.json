@@ -1,9 +1,15 @@
 {
     "name": "Basic S&A",
-    "template_name": "S&A - Standard",
     "fields": [
         { "name": "Front" },
         { "name": "Back" },
         { "name": "Sound" }
+    ],
+    "templates": [
+        {
+            "template_name": "Standard",
+            "qfmt": "qfmt.html",
+            "afmt": "afmt.html"
+        }
     ]
 }

@@ -1,9 +1,15 @@
 {
     "name": "Basic I&A",
-    "template_name": "I&A - Standard",
     "fields": [
         { "name": "Front" },
         { "name": "Back" },
         { "name": "Image" }
+    ],
+    "templates": [
+        {
+            "template_name": "Standard",
+            "qfmt": "qfmt.html",
+            "afmt": "afmt.html"
+        }
     ]
 }

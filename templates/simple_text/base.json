@@ -4,5 +4,12 @@
     "fields": [
         { "name": "Front" },
         { "name": "Back" }
+    ],
+    "templates": [
+        {
+            "template_name": "Standard",
+            "qfmt": "qfmt.html",
+            "afmt": "afmt.html"
+        }
     ]
 }
