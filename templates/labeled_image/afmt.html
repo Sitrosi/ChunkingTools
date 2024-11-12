@@ -1,0 +1,32 @@
+<div class="image-sizer">
+    {{Image}}
+</div>
+
+<h3>Correct Answers:</h3>
+<div id="revealed-labels"></div>
+
+<script>
+    var labelListBack = "{{LabelList}}".split(','); // Get label list (color:label pairs)
+    shuffleArray(labelListBack); // Shuffle labels to randomize order
+
+    // Generate revealed labels dynamically
+    var generateRevealedLabels = labelListBack.map(labelPair => {
+        var splits = labelPair.split(':'); // Extract color and region
+        var region = splits[0];
+        var color = splits[1];
+        return `<div class="label-block" style="color: ${color}">${region}</div>`;
+    }).join('');
+
+
+    // Inject revealed labels into the back template
+    document.getElementById('revealed-labels').innerHTML = generateRevealedLabels;
+
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp; // Swap elements
+        }
+    }
+</script>

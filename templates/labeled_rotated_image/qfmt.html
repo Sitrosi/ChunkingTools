@@ -1,0 +1,36 @@
+<div id="rotating-image-container" style="width: 100%; text-align: center;">
+    <div class="image-sizer">
+        {{Image}}
+    </div>
+    <div id="occluded-labels"></div>
+</div>
+
+<script>
+    function rotateImage() {
+        var container = document.getElementById("rotating-image-container");
+        // Wait until the inner image is loaded
+        var img = container.querySelector("img"); // Find the img element
+        if (img) {
+            img.onload = function() {
+                var degrees = Math.random() * 360; // Generate a random rotation between 0 and 360 degrees
+                img.style.transform = "rotate(" + degrees + "deg)"; // Apply rotation to the image
+            };
+
+            // If the image is already loaded before the script runs
+            if (img.complete) {
+                img.onload();
+            }
+        }
+    }
+
+    rotateImage();
+    var labelListFront = "{{LabelList}}".split(','); // Get label list (color:label pairs)
+    // Generate occluded labels dynamically
+    var generateOccludedLabels = labelListFront.map(function(labelPair) {
+        var color = labelPair.split(':')[1];
+        return '<div class="label-block" style="background-color: ' + color + ';">&nbsp;</div>';
+    }).join('');
+
+    // Inject occluded labels into the front template
+    document.getElementById('occluded-labels').innerHTML = generateOccludedLabels;
+</script>

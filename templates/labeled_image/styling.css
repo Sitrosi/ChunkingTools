@@ -1,0 +1,25 @@
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+#occluded-labels .label-block {
+    padding: 10px;
+    width: 150px;
+    height: 20px;
+    margin: 5px auto;
+}
+
+#revealed-labels .label-text {
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px auto;
+    background-color: #f0f0f0;
+}
+
+.image-sizer {
+    max-width: 512px; max-height: 512px; display: inline-block;
+}

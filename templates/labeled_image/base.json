@@ -1,0 +1,14 @@
+{
+    "name": "Image with Labels",
+    "fields": [
+        { "name": "Image" },
+        { "name": "LabelList" }
+    ],
+    "templates": [
+        {
+            "template_name": "standard_orientation",
+            "qfmt": "qfmt.html",
+            "afmt": "afmt.html"
+        }
+    ]
+}

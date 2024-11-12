@@ -1,0 +1,19 @@
+<div id="image-container" style="width: 100%; text-align: center;">
+    <div class="image-sizer">
+        {{Image}}
+    </div>
+    <div id="occluded-labels"></div>
+</div>
+
+<script>
+    var labelListFront = "{{LabelList}}".split(','); // Get label list (color:label pairs)
+
+    // Generate occluded labels dynamically
+    var generateOccludedLabels = labelListFront.map(function(labelPair) {
+        var color = labelPair.split(':')[1]; // Extract color
+        return `<div class="label-block" style="background-color: ${color};">&nbsp;</div>`;
+    }).join('');
+
+    // Inject occluded labels into the front template
+    document.getElementById('occluded-labels').innerHTML = generateOccludedLabels;
+</script>
